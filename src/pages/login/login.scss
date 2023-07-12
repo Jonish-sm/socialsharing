@@ -1,0 +1,91 @@
+.login{
+    height: 100vh;
+    background-color: rgb(193, 190,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        display: flex;
+        width: 50%;
+        border-radius: 10px;
+        background: white;
+        min-height: 600px;
+        overflow: hidden;
+
+        .left{
+            flex: 1;
+            background: linear-gradient(rgba(39,11,96,0.5),rgba(39,11,96,0.5)), url(./register.jpg) center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1{
+                font-size: 70px;
+                line-height: 70px;
+
+            }
+            p{
+
+            }
+            span{
+               font-size: 14px;
+            }
+            button{
+                  width: 50%;
+                  padding: 10px;
+                  border: none;
+                  background: white;
+                  color: rebeccapurple;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  font-weight: bold;
+            }
+
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1{
+                color: #555;
+           
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input{
+                   border: none;
+                   border-bottom: 1px solid lightgray;
+                   padding: 20px 10px;
+                }
+                input:focus{
+                    outline: none;
+                 }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    color: white;
+                    background: #938eef;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border-radius: 5px;
+
+                }
+            }
+
+        }
+    }
+}
+
+
